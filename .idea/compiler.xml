@@ -6,14 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Web app &amp; API account" />
         <module name="API_RANJINGS" />
         <module name="API_QUESTIONS" />
-        <module name="WebbApp &amp; API_ACCOUNT_PLAYERS" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="API_QUESTIONS" target="15" />
       <module name="API_RANJINGS" target="15" />
+      <module name="Web app &amp; API account" target="15" />
       <module name="WebbApp &amp; API_ACCOUNT_PLAYERS" target="15" />
     </bytecodeTargetLevel>
   </component>
@@ -21,6 +22,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="API_QUESTIONS" options="-parameters" />
       <module name="API_RANJINGS" options="-parameters" />
+      <module name="Web app &amp; API account" options="-parameters" />
       <module name="WebbApp &amp; API_ACCOUNT_PLAYERS" options="-parameters" />
     </option>
   </component>

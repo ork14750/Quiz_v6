@@ -89,7 +89,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/login-registration-springboot-hibernate-jsp-auth-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$USER_HOME$/Desktop/QUIZ_V6/login-registration-springboot-hibernate-jsp-auth/target/login-registration-springboot-hibernate-jsp-auth-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="WebbApp &amp; API_ACCOUNT_PLAYERS/web/Web" />
     </root>

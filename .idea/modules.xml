@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USER_HOME$/.m2/API_QUESTIONS/API_QUESTIONS.iml" filepath="$USER_HOME$/.m2/API_QUESTIONS/API_QUESTIONS.iml" />
-      <module fileurl="file://$USER_HOME$/.m2/API_RANKINGS/API_RANJINGS.iml" filepath="$USER_HOME$/.m2/API_RANKINGS/API_RANJINGS.iml" />
-      <module fileurl="file://$PROJECT_DIR$/WebbApp &amp; API_ACCOUNT_PLAYERS.iml" filepath="$PROJECT_DIR$/WebbApp &amp; API_ACCOUNT_PLAYERS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../API_QUESTIONS/API_QUESTIONS.iml" filepath="$PROJECT_DIR$/../API_QUESTIONS/API_QUESTIONS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../API_RANKINGS/API_RANJINGS.iml" filepath="$PROJECT_DIR$/../API_RANKINGS/API_RANJINGS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Web app &amp; API account.iml" filepath="$PROJECT_DIR$/Web app &amp; API account.iml" />
     </modules>
   </component>
 </project>
