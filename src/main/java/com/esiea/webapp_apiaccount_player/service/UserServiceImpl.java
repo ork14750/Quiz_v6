@@ -17,8 +17,6 @@ public class UserServiceImpl implements UserService {
 	@Autowired
 	private BCryptPasswordEncoder bCryptPasswordEncoder;
 
-
-
 	private String filePath;
 
 
@@ -39,7 +37,7 @@ public class UserServiceImpl implements UserService {
 	public void loadDataUsers(){
 
 		String DataUsers;
-		this.filePath = new File("src/main/resources/data/userData").getAbsolutePath();
+		this.filePath = new File("quiz_v7/src/main/resources/data/userData").getAbsolutePath();
 		try
 		{
 
@@ -54,7 +52,7 @@ public class UserServiceImpl implements UserService {
 				if(DataUsers.charAt(0)!='#'){
 					String[] listTemp=DataUsers.split(";");
 					User user = new User();
-					System.out.println(listTemp[1]);
+					//System.out.println(listTemp[1]);
 					user.setId(Integer.parseInt(listTemp[0]));
 					user.setUsername(listTemp[1]);
 					user.setPassword(listTemp[2]);
@@ -71,7 +69,6 @@ public class UserServiceImpl implements UserService {
 		{
 			e.printStackTrace();
 		}
-		//System.out.println(listDataUsers.get(0));
 	}
 
 	public void saveDataUser(User user,String password){
@@ -86,7 +83,7 @@ public class UserServiceImpl implements UserService {
 			BufferedWriter bw = new BufferedWriter(fw);
 			PrintWriter out = new PrintWriter(bw))
 		{
-			//out.println();
+
 			out.println(DataUser);
 		} catch (IOException e) {
 			e.printStackTrace();
